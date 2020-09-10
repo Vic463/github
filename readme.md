@@ -1,4 +1,4 @@
-#Velkommen til mit Github repo
+# Velkommen til mit Github repo
 
 Dette er et **_øveprojekt_**, og derfor vil det nok ikke være særlig brugbart for de fleste.
 På forsiden finder du en div, som jeg har planer om skal se ud på følgende måder: <br>

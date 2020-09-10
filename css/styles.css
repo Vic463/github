@@ -34,3 +34,27 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
+div{
+    width: 30vw;
+    height: 40vh;
+    margin: 20vh 35vw;
+    background-color: #004f84;
+    box-shadow: 8px 8px 15px grey;
+}
+div:hover{
+    background: url("../images/sea1.png");
+    animation-name: move;
+    animation-duration: 8s;
+}
+@keyframes move {
+    from {margin: 20vh 35vw;}
+    25% {
+        margin-top: 20vh;
+        margin-left: 0;
+    }
+    70% {
+        margin-top: 20vh;
+        margin-left: 70vw;
+    }
+    to {margin: 20vh 35vw;}
+}
